@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photography Basics - Shutter Speed</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                margin: 0;
+            }
+            #active {
+                color:coral;
+            }
+            #source {
+                text-decoration: underline;
+            }
+            #grid {
+                display: grid;
+                grid-template-columns: min-content 1fr;
+            }
+            #expl {
+                padding-left: 20px;
+            }
+            a {
+                color:black;
+                text-decoration: none;
+            }
+            h1 {
+                font-size: 60px;
+                text-align: center;
+                border-bottom: 2px solid black;
+                padding: 10px;
+                margin: 0;
+            }
+            h2 {
+                font-size: 45px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            #grid ol {
+                border-right: 2px solid black;
+                width: 150px;
+                padding: 20px;
+                padding-left: 30px;
+                padding-right: 0;
+                margin: 0;
+            }
+            @media(max-width:600px){
+                #grid {
+                    display: block;
+                }
+                #grid ol {
+                    border-right: none;
+                    border-bottom: 2px solid black;
+                    border-bottom-style: dotted;
+                    width: 100%;
+                }
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <h1><a href="index.html">Photography Basics</a></h1>
+        <div id="grid">
+            <ol>
+                <li><a href="1.html" id="active">FOV(or AOV)</a></li>
+                <li><a href="2.html" >Aperture</a></li>
+                <li><a href="3.html" >Shutter Speed</a></li>
+                <li><a href="4.html">ISO</a></li>
+            </ol>
+    
+            <div id="expl">
+                <h2>FOV</h2>
+                <h4><a href="https://www.techtarget.com/whatis/definition/field-of-view-FOV" target="_blank" title="The Source of the content" id="source">What is FOV</a></h4>
+                <p>Field of view (FOV) is the open, observable area a person can see through their eyes or via an optical device, such as a camera. 
+                In the case of optical devices, FOV is the maximum area that the device can capture. 
+                In other words, it answers the question: "How much can the device see?"</p>
+            </div>
+        </div>
+    </body>
+</html>
